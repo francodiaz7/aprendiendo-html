@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    -->
+    <title>Mi primera web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+
+        }
+    </style>
+  </head>
+  <body>
+    <table style="width: 100%;">
+        <thead>
+      <tr>
+        <th>Producto</th>
+        <th>Precio</th>
+      </tr>
+      <tr>
+        </thead>
+        <tbody>
+        <td>Hola beats</td>
+        <td>Gratis</td>
+      </tr>
+      <tr>
+        <td>Chanchito feliz</td>
+        <td>19,90$</td>
+      <tr>
+        <td>Chanchito feliz muy feliz</td>
+        <td>29$</td>
+      </tr>
+      </tr>
+      </tbody>
+      <tfoot>
+          <td>Total</td>
+          <td>49,90$</td>
+      </tfoot>
+    </table>
+    <!--Esta es una lista ordenada-->
+    <ol>
+      <li value="50">Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+      <li>
+        <ol style="list-style-type: lower-roman">
+          <li>sub elemento</li>
+          <li>sub elemento</li>
+          <li>sub elemento</li>
+          <li>sub elemento</li>
+          <li>sub elemento</li>
+          <li>sub elemento</li>
+        </ol>
+      </li>
+    </ol>
+    <!--Esta es una no lista ordenada-->
+    <ul>
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+    </ul>
+    <form action="/formulario" method="POST">
+      <label for="nombre">Nombre</label>
+      <input
+        value="Chanchito"
+        type="text"
+        id="nombre"
+        name="nombre"
+        placeholder="Nombre en gris"
+      />
+      <br />
+      <label for="apellido">Apellido</label>
+      <input
+        value="feliz"
+        type="text"
+        id="apellido"
+        name="apellido"
+        placeholder="Apellido gris"
+      />
+      <br />
+      <label for="comentario">Comentario</label>
+      <textarea name="comentario" id="comentario" cols="50" rows="30">
+value="este es un valor por defecto"
+    </textarea
+      >
+      <br />
+      <button type="button">Tipo botón</button>
+      <button type="reset">Tipo reset</button>
+      <button type="submit">Tipo submit</button>
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Chanchito feliz</h6>
+    <p>Guten</p>
+    <p>Tag</p>
+    <hr />
+    <h2>Cnachito felipe</h2>
+    <p>
+      Texto un poco mas <span style="color: blue">mucho mas largo</span> y es
+      para mostrar <br /><br />
+      la etiqueta de span!
+    </p>
+    <!-- este texto es un comentario-->
+    <a target="_blank" href="https://www.google.com">Ir a google</a>
+    <img src="img/coffee.jpg" alt="a photo of a latte coffee" width="400" />
+  </body>
+</html>
